@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+   canvas {
+    display: block;
+  } 
+  
+  button {
+      padding: 14px;
+      margin: 30px 0px 10px 30px; /*margin properties: top, right, bottom, left */
+      min-width: 64px;
+      border-radius: 8px;
+      transition-duration: 0.4s;
+      background-color: #BCEAD5;
+      cursor: pointer;
+  }
+
+  button:hover{
+    background-color: #4FA095;
+    color: antiquewhite;
+  }
+  
+  #controls {
+      position: absolute;
+      margin: 30px 0px 30px 40px;
+      padding: 20px;
+      top: 0px;
+      display: grid;
+  }
+  
+  #speed-label, #help-label {
+      line-height: 200%;
+      padding: 10px 0px 10px 30px;
+      color: rgb(235, 233, 225);
+
+  }
+  #speed-slider{
+    cursor: pointer;
+  }
