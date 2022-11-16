@@ -4,11 +4,6 @@
  * The main file for the binary tree visualization, an easy-to-use web-based
  * binary tree visualization
  *
- * Created by Colin Siles on July 6th, 2019
- * Last updated July 14th, 2019
- *
- * Inspired by Coding Train's Binary Tree Coding Challenge:
- * https://thecodingtrain.com/CodingChallenges/065.2-binary-tree-viz.html
 ***/
 
 // Controls the size of the visualization. Defaults to full-screen
